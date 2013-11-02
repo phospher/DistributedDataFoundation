@@ -14,7 +14,6 @@ def communicate(client, message, answerRecords, timeout, socket):
     	conn.close()
     	return message
 
-
 class TransatonCommitCoordinator(object):
 	"""docstring for TransatonCommitHelper"""
 	def __init__(self, socket):
